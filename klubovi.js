@@ -1,34 +1,3 @@
-/*let img = $('img');
-let holder = $('#holder');
-let info = $('#info');
-let imgInfo = 'Ime kluba';
-
-img.on('click',function () {
-info.html('')
-holder.html('');
-let self = $(this);
-
-let copy = self.clone();
-copy.css({
-position: 'absolute',
-width: self.width(),
-height: self.height(),
-top: self.offset().top,
-left: self.offset().left
-});
-
-copy.animate({
-top: holder.offset().top,
-left: holder.offset().left,
-width: holder.width(),
-height: holder.height()
-}, 1000, function(){
-info.append(imgInfo);
-})
-holder.append(copy);
-}); */
-
-
 jQuery(document).ready(function($){
    
     var img=$('img');
